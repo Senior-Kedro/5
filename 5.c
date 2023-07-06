@@ -64,7 +64,7 @@ int main() {
         int count = countNumbers(r);
 
         // Print the result
-        printf("The number of valid numbers with %d digits is: %d\n", r, count);
+        printf("The number of valid numbers with %d digits is: %u\n", r, count);
     } else{
         printf("You entered a wrong number of digits, it can't be less than 1");
     }
